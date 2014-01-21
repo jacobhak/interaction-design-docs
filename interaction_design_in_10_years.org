@@ -1,0 +1,26 @@
+* What do you think interactive technology will be like in 10 years from now (i.e. in year 2024)?
+  There might be a new "standard medium" for interaction, like touchscreens are
+  right now. That doesn't mean that there might exist several new ways of
+  interacting with computers, just that it takes a while for them to be adopted by
+  a large portion of users.
+* What will stay the same, and what will have changed?
+  Keyboards will still be around, but might be less ubiquitous, depending how much
+  Speech-to-text has evolved. Screens will still be everywhere but in even more
+  form factors and materials.
+* Do you think more or less will have changed, compared with the past 10 years ago (i.e. since 2004)?
+  I believe in the acceleration of technological advances, and as such I think
+  that at least 2 (very arbitrary number) disruptive or novel interaction methods
+  will have reached consumers. It will have changed more than the last 10 years.
+* Will it be different or similar to e.g. science fiction? (please refer to specific books or movies if you like!)
+  Minority Report comes to mind. Projected 3D interfaces. They already exists in
+  some implementations, but might be productized in the years to come. Speech
+  will continue progressing, and is used in multiple sci-fi pieces, Star Trek TOS
+  for example.
+* How would you like to affect the development, as an interaction designer?
+  I would love to be part of a team that works with novel interaction
+  technologies, and although I don't primarily view myself as an interaction
+  designer, I hope to contribute to a product or research project that changes the
+  way people interact with computers.
+* Bring up hopes, wishes, fears and fantasies, but try and be as realistic as you can!
+  I sincerely hope that multimodal interfaces will be more commonplace and that
+  touch won't mean a picture behind glass.
