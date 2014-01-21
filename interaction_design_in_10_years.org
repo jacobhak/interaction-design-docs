@@ -1,3 +1,5 @@
+_Interaction design in 10 years._
+by Jacob Håkansson.
 * What do you think interactive technology will be like in 10 years from now (i.e. in year 2024)?
   There might be a new "standard medium" for interaction, like touchscreens are
   right now. That doesn't mean that there might exist several new ways of
