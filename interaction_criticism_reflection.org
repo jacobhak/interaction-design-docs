@@ -1,0 +1,62 @@
+#+TITLE:     Interaction Criticism Reflection
+#+AUTHOR:    Jacob Håkansson
+#+EMAIL:     jacobhak@kth.se
+#+DATE:      2014-02-04 Tue
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+#+XSLT:
+* What does the author mean by interaction criticism?
+The author tries to convince us that the interaction design community
+is far too focused on scientific evaluation of interactions. He
+thinks that we should practice criticism more like the way an art
+or food critic would do it. He points out that this should be made by
+professionals. He draws parallels to the fields of humanities and
+aesthetics. He proposes a framework for practicing this criticism in
+the form of four perspectives:
+- Interaction designer
+- Interface
+- User
+- Social context
+Not all of the perspectives needs to be explored.
+* Why is it relevant to interaction designers?
+Because interaction design is an art-form. User experience is
+particularly hard to measure objectively. An interface is more than
+presenting information and processes efficiently, it gives rise to
+feelings in the user. Learning to be aware of how designs affect the
+consciousness can only lead to progress. Criticism is a way of
+teaching each other.
+* What do you find most interesting with it?
+Description versus interpretation might just be the most useful
+distinction the author makes in the paper. That is the core of what
+makes criticism not just a bunch of subjective opinions.
+* Was it something you didn't like, didn't understand, or disagree with in the text?
+Disclaimer: The following is not criticism, it's a rant.
+
+The paper was a painful read. Don't get me wrong, I agree with the
+author's sentiment. It's just the way he formulates it that's abhorrent. He
+repeats himself over and over, just using different words. He comes
+off as pompous and self-indulgent. It's just too many words to
+describe simple ideas. Even the bullet points of his framework fails
+to convey any meaning. They give a sense of "what" but not "how" or
+"why", they should have at least given some idea of the "how". He fails
+miserably at succinctness, when he is brief he fails to convey
+meaning, when he tries to explain he spreads it out of two pages.
+
+Seldom have I come across a piece of text that have made me feel this
+way. How every single section of the article wasn't edited to half
+its length is a mystery to me.
+
+I have some restrictions regarding several of the topics he brings
+up, simply because he fails to show their relevance. I _know_ they
+might be relevant, but he doesn't justify them.
+
+I could go on like this for another page, but for everyone's sake
+I'll stop here. I've conveyed my opinion.
