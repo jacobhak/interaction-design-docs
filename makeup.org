@@ -1,0 +1,93 @@
+* The Design Way by Nelson and Stolterman - desiderata
+** What is meant by desiderata?
+That-which-is-desired. Three subjects make up the whole of
+desiderata; aesthetics, ethics and reason. The importance of the
+individual subjects can vary, but together they create something
+bigger than the sum of the parts. It's an approach to change that is
+not reactive.
+** In what ways is it important for the practice of interaction design?
+It's an escape route from traditional approaches to change. For
+example, the "sweep-in" approach is characterized by the need find a
+solution quickly by rigorous examination. That can lead to
+analysis-paralysis according to the authors. The "Block-out" approach
+is the opposite, using a pre-made solution in different situations,
+which is often too simplistic and/or doesn't fit the desires of the
+people.
+
+I think it's important because it is truly freeing, getting rid of
+preconceptions, a way to ask deep/hard questions. I think that is a
+way to greatness.
+
+** How do you come up with the desiderata for a particular design task?
+A desiderata assessment is more than understanding needs and what
+currently does not satisfy those needs. It's an understanding of the
+motivation behind the desire. The why. A need is a baseline, a desire
+is not something we need, but something we want. Envision what we
+want to happen, not what we need to happen.
+* Ubiquitous computing - [[https://www.cs.cmu.edu/~jasonh/courses/ubicomp-sp2007/papers/02-weiser-computer-21st-century.pdf][The computer for the 21st century]]
+What a fantastic paper! Truly visionary and inspiring. I think we're
+on the path towards the ubiquitous computing vision that's presented. A
+lot of the features in current smartphones and tablets certainly
+fulfills that vision. Location aware and kind of purpose built. On
+the other hand, they are pretty much used just as personal
+computers. This might be because of the prize problem. The devices
+are still expensive, so they're not really ubiquitous. The progress
+in smaller devices has so far mostly been in making them as capable
+as the personal computers. I'm not sure it's in the interest of
+computer manufacturers to stop hardware progress and make the
+hardware cheaper. That's concerning. Performance benefits still
+sells, for both PCs and smartphones. Maybe it'll take a long time
+before we're happy enough with computer performance to make them
+ubiquitous?
+
+* [[http://www.bratton.info/projects/talks/we-need-to-talk-about-ted/][The TED talk critizising TED]]
+His critique boils down to that TED talks are an escape from
+reality. It is a waste of highly intellectual people's time and not
+only that, it's a poison that maintain the delusion of "if we just
+keep innovating as we've done before everything will be all
+right". He argues that this is not the case, humanity needs to start
+dealing with it's biggest problems head on. He goes on to bash TED's
+format letter by letter. He also has a problem with over-simplification.
+
+I have a hard time understanding his cynicism and disgust with
+TED. Is TED really that important? Are a lot of people wasting a lot
+of time on TED? I don't think so, and if they are, it's probably
+because they want to. People aren't machines, he talks about quality
+of life, I happen to think that "wasting" time is part of quality of
+life. Who are you to be dictating what I spend my time doing?
+
+As for the delusion of innovation, I can agree to some
+extent. However, I don't think that TED is so all-powerful as he
+makes it out to be. He compares TED to Fox News. He's never going to
+get to the people that's already drinking the Kool-Aid. In short, I
+think he wasted his time on TED.
+* [[http://www.interaction-design.org/encyclopedia/visual_aesthetics.html][Visual aesthetics]]
+The paper argues for the value of aesthetics in interaction
+design. In particular how things looks, and it's effect on users.
+Aesthetics is hard and can't be be boiled down to guidelines, but
+guidelines can help (symmetry, color palettes etc.). Experiments are
+imperative. What's considered beautiful is also ever-changing, especially
+in computer interfaces.
+
+Evaluation of visual aesthetics have often been short-term, first
+impression style. Although that's important, the author thinks that
+the long-term perspective needs to be explored further.
+
+One commentary is critisizing the scoping of
+aesthetics. Yes there is more to aesthetics than what's described in
+the paper, but I'm not sure it's written such a prescriptive way that
+we should consider the presented approach the "only way". Another
+commentary adds that context is an important part of visual
+design. True, beauty comes in many forms, and the setting can be
+crucial for a piece to achieve its full potential.
+
+* Related work - [[http://seene.co][Seene]]
+There’s currently an app on the Apple App Store called Seene, which
+let’s users create a limited 3D-model by filming it with your
+smartphone. The resulting model can be interacted with by other users,
+but it is limited to narrow angles. It’s relevant, but not sufficient
+to make our vision come true. Seene’s model only gives an illusion of
+3D, with a limited set of reference points to stitch together the
+image. We need the ability to create a model with sufficient
+resolution to make clothing fit close to how they would in real life.
+
