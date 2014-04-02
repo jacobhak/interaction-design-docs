@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>stories</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta name="title" content="stories"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2014-04-02T22:00+0200"/>
+<meta name="author" content="Jacob Håkansson"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
+  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
+  .center {margin-left:auto; margin-right:auto; text-align:center;}
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top;  }
+  th.right  { text-align:center;  }
+  th.left   { text-align:center;   }
+  th.center { text-align:center; }
+  td.right  { text-align:right;  }
+  td.left   { text-align:left;   }
+  td.center { text-align:center; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  div.inlinetask {
+    padding:10px;
+    border:2px solid gray;
+    margin:10px;
+    background: #ffffcc;
+  }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style><link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" /><meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+
+</head>
+<body>
+
+<div id="preamble">
+
+</div>
+
+<div id="content">
+<h1 class="title">stories</h1>
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1 Template</a></li>
+<li><a href="#sec-2">2 Customer</a>
+<ul>
+<li><a href="#sec-2-1">2.1 Finding businesses</a></li>
+<li><a href="#sec-2-2">2.2 Ordering</a>
+<ul>
+<li><a href="#sec-2-2-1">2.2.1 Acceptance criteria</a></li>
+<li><a href="#sec-2-2-2">2.2.2 Discussion</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-3">2.3 Progress</a>
+<ul>
+<li><a href="#sec-2-3-1">2.3.1 Acceptance criteria</a></li>
+<li><a href="#sec-2-3-2">2.3.2 Discussion</a></li>
+</ul>
+</li>
+<li><a href="#sec-2-4">2.4 Recommendations/read</a></li>
+<li><a href="#sec-2-5">2.5 Recommendations/write</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3 Activities</a>
+<ul>
+<li><a href="#sec-3-1">3.1 tickets for activities</a></li>
+<li><a href="#sec-3-2">3.2 Recommendations for activities</a></li>
+<li><a href="#sec-3-3">3.3 Discussion</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4 Business</a>
+<ul>
+<li><a href="#sec-4-1">4.1 Business/deliver</a>
+<ul>
+<li><a href="#sec-4-1-1">4.1.1 Acceptance criteria</a></li>
+<li><a href="#sec-4-1-2">4.1.2 Discussion</a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="#sec-5">5 Individual</a>
+<ul>
+<li><a href="#sec-5-1">5.1 sell/donate extra stuff</a>
+<ul>
+<li><a href="#sec-5-1-1">5.1.1 Acceptance criteria</a></li>
+<li><a href="#sec-5-1-2">5.1.2 Discussion</a></li>
+</ul>
+</li>
+<li><a href="#sec-5-2">5.2 Services/dog watching</a>
+<ul>
+<li><a href="#sec-5-2-1">5.2.1 Discussion</a></li>
+</ul>
+</li>
+<li><a href="#sec-5-3">5.3 Finding individuals</a>
+<ul>
+<li><a href="#sec-5-3-1">5.3.1 Discussion</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Template</h2>
+<div class="outline-text-2" id="text-1">
+
+<p>As a
+</p>
+<p>
+I want 
+</p>
+<p>
+So that
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Customer</h2>
+<div class="outline-text-2" id="text-2">
+
+<p>A customer is someone on the beach who wants to buy something
+</p>
+</div>
+
+<div id="outline-container-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Finding businesses</h3>
+<div class="outline-text-3" id="text-2-1">
+
+<p>As a customer
+</p>
+<p>
+I want to be able to find businesses that sells services or goods
+</p>
+<p>
+So that I can buy the services or goods
+</p>
+
+</div>
+
+</div>
+
+<div id="outline-container-2-2" class="outline-3">
+<h3 id="sec-2-2"><span class="section-number-3">2.2</span> Ordering</h3>
+<div class="outline-text-3" id="text-2-2">
+
+<p>As a customer
+</p>
+<p>
+I want have a drink delivered
+</p>
+<p>
+So that I don't have to leave my spot in the sun
+</p>
+</div>
+
+<div id="outline-container-2-2-1" class="outline-4">
+<h4 id="sec-2-2-1"><span class="section-number-4">2.2.1</span> Acceptance criteria</h4>
+<div class="outline-text-4" id="text-2-2-1">
+
+<p>Given 
+When
+Then
+</p></div>
+
+</div>
+
+<div id="outline-container-2-2-2" class="outline-4">
+<h4 id="sec-2-2-2"><span class="section-number-4">2.2.2</span> Discussion</h4>
+<div class="outline-text-4" id="text-2-2-2">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2-3" class="outline-3">
+<h3 id="sec-2-3"><span class="section-number-3">2.3</span> Progress</h3>
+<div class="outline-text-3" id="text-2-3">
+
+<p>As a customer
+</p>
+<p>
+I want to see the status of my delivery
+</p>
+<p>
+So that I know when I will get it
+</p>
+</div>
+
+<div id="outline-container-2-3-1" class="outline-4">
+<h4 id="sec-2-3-1"><span class="section-number-4">2.3.1</span> Acceptance criteria</h4>
+<div class="outline-text-4" id="text-2-3-1">
+
+<p>Given
+When
+Then
+</p></div>
+
+</div>
+
+<div id="outline-container-2-3-2" class="outline-4">
+<h4 id="sec-2-3-2"><span class="section-number-4">2.3.2</span> Discussion</h4>
+<div class="outline-text-4" id="text-2-3-2">
+
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-2-4" class="outline-3">
+<h3 id="sec-2-4"><span class="section-number-3">2.4</span> Recommendations/read</h3>
+<div class="outline-text-3" id="text-2-4">
+
+<p>As a customer
+</p>
+<p>
+I want to be able to read reviews of businesses or sellers
+</p>
+<p>
+So that I can determine which are good or bad
+</p></div>
+
+</div>
+
+<div id="outline-container-2-5" class="outline-3">
+<h3 id="sec-2-5"><span class="section-number-3">2.5</span> Recommendations/write</h3>
+<div class="outline-text-3" id="text-2-5">
+
+<p>As a customer
+</p>
+<p>
+I want to be able to write reviews for businesses/sellers
+</p>
+<p>
+So that I can help others choose the best seller
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> Activities</h2>
+<div class="outline-text-2" id="text-3">
+
+
+</div>
+
+<div id="outline-container-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> tickets for activities</h3>
+<div class="outline-text-3" id="text-3-1">
+
+<p>As a customer
+</p>
+<p>
+I want to book tickets for an activity on the beach
+</p>
+<p>
+So that I can do something else than sunbathing
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> Recommendations for activities</h3>
+<div class="outline-text-3" id="text-3-2">
+
+<p>As a customer
+</p>
+<p>
+I want to be able to see reviews for activities
+</p>
+<p>
+So that I know which ones are worth doing/experiencing
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-3-3" class="outline-3">
+<h3 id="sec-3-3"><span class="section-number-3">3.3</span> Discussion</h3>
+<div class="outline-text-3" id="text-3-3">
+
+<p>Do we want to support activities?
+It might not be a lot of work, or might fit in with the general
+design of buying and selling goods.
+It need to be explored further.
+</p>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Business</h2>
+<div class="outline-text-2" id="text-4">
+
+<p>A business is an individual or an organization that wants to sell something.
+</p>
+</div>
+
+<div id="outline-container-4-1" class="outline-3">
+<h3 id="sec-4-1"><span class="section-number-3">4.1</span> Business/deliver</h3>
+<div class="outline-text-3" id="text-4-1">
+
+<p>As a business
+</p>
+<p>
+I want to be able to deliver my goods
+</p>
+<p>
+So that I can reach more customers
+</p>
+</div>
+
+<div id="outline-container-4-1-1" class="outline-4">
+<h4 id="sec-4-1-1"><span class="section-number-4">4.1.1</span> Acceptance criteria</h4>
+<div class="outline-text-4" id="text-4-1-1">
+
+<p>Given
+When
+Then
+</p></div>
+
+</div>
+
+<div id="outline-container-4-1-2" class="outline-4">
+<h4 id="sec-4-1-2"><span class="section-number-4">4.1.2</span> Discussion</h4>
+<div class="outline-text-4" id="text-4-1-2">
+
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> Individual</h2>
+<div class="outline-text-2" id="text-5">
+
+<p>An individual is anyone on the beach. Can be a business or a
+customer, but doesn't have to be.
+</p>
+</div>
+
+<div id="outline-container-5-1" class="outline-3">
+<h3 id="sec-5-1"><span class="section-number-3">5.1</span> sell/donate extra stuff</h3>
+<div class="outline-text-3" id="text-5-1">
+
+<p>As an individual
+</p>
+<p>
+I want to be able to sell or donate left-overs
+</p>
+<p>
+So that I can minimize waste and feel good about myself
+</p>
+</div>
+
+<div id="outline-container-5-1-1" class="outline-4">
+<h4 id="sec-5-1-1"><span class="section-number-4">5.1.1</span> Acceptance criteria</h4>
+<div class="outline-text-4" id="text-5-1-1">
+
+<p>Given
+When
+Then
+</p></div>
+
+</div>
+
+<div id="outline-container-5-1-2" class="outline-4">
+<h4 id="sec-5-1-2"><span class="section-number-4">5.1.2</span> Discussion</h4>
+<div class="outline-text-4" id="text-5-1-2">
+
+</div>
+</div>
+
+</div>
+
+<div id="outline-container-5-2" class="outline-3">
+<h3 id="sec-5-2"><span class="section-number-3">5.2</span> Services/dog watching</h3>
+<div class="outline-text-3" id="text-5-2">
+
+<p>As a dog owner
+</p>
+<p>
+I want someone to watch my dog for a short time
+</p>
+<p>
+So that I can go for a swim
+</p>
+</div>
+
+<div id="outline-container-5-2-1" class="outline-4">
+<h4 id="sec-5-2-1"><span class="section-number-4">5.2.1</span> Discussion</h4>
+<div class="outline-text-4" id="text-5-2-1">
+
+<p>Some trust system, like reviews would be needed for people to trust
+their dog to a random person.
+</p>
+<p>
+This might also be a low priority feature.
+</p></div>
+</div>
+
+</div>
+
+<div id="outline-container-5-3" class="outline-3">
+<h3 id="sec-5-3"><span class="section-number-3">5.3</span> Finding individuals</h3>
+<div class="outline-text-3" id="text-5-3">
+
+<p>As an individual
+</p>
+<p>
+I want to find other individuals
+</p>
+<p>
+So that that I can borrow stuff, get stuff for free, get help.
+</p>
+
+</div>
+
+<div id="outline-container-5-3-1" class="outline-4">
+<h4 id="sec-5-3-1"><span class="section-number-4">5.3.1</span> Discussion</h4>
+<div class="outline-text-4" id="text-5-3-1">
+
+<p>Will the participation be high enough for people to actually use it?
+</p></div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="postamble">
+<p class="author">Author: Jacob Håkansson (<a href="mailto:jacobhakansson@gmail.com">jacobhakansson@gmail.com</a>)</p><p class="date">Date: 2014-04-02T22:00+0200</p>
+</div>
+</body>
+</html>

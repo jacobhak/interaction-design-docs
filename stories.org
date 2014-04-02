@@ -1,0 +1,121 @@
+* Template
+As a
+
+I want 
+
+So that
+
+* Customer
+A customer is someone on the beach who wants to buy something
+** Finding businesses
+As a customer
+
+I want to be able to find businesses that sells services or goods
+
+So that I can buy the services or goods
+
+
+** Ordering
+As a customer
+
+I want have a drink delivered
+
+So that I don't have to leave my spot in the sun
+*** Acceptance criteria
+Given 
+When
+Then
+*** Discussion
+** Progress
+As a customer
+
+I want to see the status of my delivery
+
+So that I know when I will get it
+*** Acceptance criteria
+Given
+When
+Then
+*** Discussion
+
+** Recommendations/read
+As a customer
+
+I want to be able to read reviews of businesses or sellers
+
+So that I can determine which are good or bad
+** Recommendations/write
+As a customer
+
+I want to be able to write reviews for businesses/sellers
+
+So that I can help others choose the best seller
+
+* Activities
+** tickets for activities
+As a customer
+
+I want to book tickets for an activity on the beach
+
+So that I can do something else than sunbathing
+
+** Recommendations for activities
+As a customer
+
+I want to be able to see reviews for activities
+
+So that I know which ones are worth doing/experiencing
+
+** Discussion
+Do we want to support activities?
+It might not be a lot of work, or might fit in with the general
+design of buying and selling goods.
+It need to be explored further.
+
+* Business
+A business is an individual or an organization that wants to sell something.
+** Business/deliver
+As a business
+
+I want to be able to deliver my goods
+
+So that I can reach more customers
+*** Acceptance criteria
+Given
+When
+Then
+*** Discussion
+* Individual
+An individual is anyone on the beach. Can be a business or a
+customer, but doesn't have to be.
+** sell/donate extra stuff 
+As an individual
+
+I want to be able to sell or donate left-overs
+
+So that I can minimize waste and feel good about myself
+*** Acceptance criteria
+Given
+When
+Then
+*** Discussion
+** Services/dog watching
+As a dog owner
+
+I want someone to watch my dog for a short time
+
+So that I can go for a swim
+*** Discussion
+Some trust system, like reviews would be needed for people to trust
+their dog to a random person.
+
+This might also be a low priority feature.
+** Finding individuals
+As an individual
+
+I want to find other individuals
+
+So that that I can borrow stuff, get stuff for free, get help.
+
+*** Discussion
+Will the participation be high enough for people to actually use it?
